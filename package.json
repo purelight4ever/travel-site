@@ -23,5 +23,12 @@
     "postcss-nested": "^1.0.0",
     "postcss-simple-vars": "^1.2.0",
     "webpack": "^1.13.1"
+  },
+   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "heroku-prebuild": "npm install --production=false",
+    "eject": "react-scripts eject"
   }
 }
